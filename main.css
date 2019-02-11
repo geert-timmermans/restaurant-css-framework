@@ -1,0 +1,100 @@
+/*-------------------------all pages--------------------*/
+*{
+    color: #fff;
+}
+
+body{
+    background-color: #343434;
+}
+
+header, footer, .jumbotron{
+    background-color: #000;
+}
+
+nav{
+    background-color: #f47524;
+    font-size: 1.4em;
+}
+
+.navbar{
+    height: 2em;
+}
+
+main{
+    background-color: #343434;
+}
+
+footer{
+    font-size: 1.5em;
+}
+
+.logo-facbook{
+    background-color: #f47524;
+    font-size: 1.5em;
+}
+
+.nav-link{
+     color: white;
+}
+
+.active{
+    color:#000;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.list-unstyled{
+    font-size: 0.5em;
+}
+
+.footer-list{
+    display: flex;
+}
+
+.border-openingsuren{
+    border-bottom: 0.1em dotted;
+}
+
+.border-contact{
+    border-left: 0.2em dotted #343434;
+    display: flex;
+}
+
+.footer-icon, .border-contact .fas{
+    color: #f47524;
+}
+
+.contact-icon{
+    font-size: 0.5em;
+}
+
+
+/*-------------------------home page--------------------*/
+.card-spacing{
+    display: flex;
+}
+
+.main-body-cards{
+    padding: 2.5em 0;
+}
+
+.main-body{
+    background-color: #000;
+    color: #f47524;
+}
+
+.border-cards{
+    border-bottom: 0.2em dotted #343434;
+}
+
+.main-body, h5{
+    font-size: 1.2em;
+}
+
+.card-text-font-size{
+    font-size: 0.7em;
+}
