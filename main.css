@@ -98,3 +98,12 @@ footer{
 .card-text-font-size{
     font-size: 0.7em;
 }
+
+.cards-icons{
+    background-color: #f47524;
+    font-size: 1.3em;
+}
+
+.padding-x-euro-icons{
+    padding:0.7em;
+}
