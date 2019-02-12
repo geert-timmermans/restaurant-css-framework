@@ -32,7 +32,7 @@
                     <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link" href="kaart.html">Kaart</a>
+                    <a class="nav-link" href="menu.html">Menu</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link" href="fotos.html">Foto's</a>
@@ -46,8 +46,57 @@
             </ul>
         </div>
     </nav>
-    <main class="container">
-        main
+    <main class="container-fluid">
+        <article class="main-border-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 offset-2 text-center pl-0">
+                        <i class="fas fa-comment main-icon py-4 px-3"></i>
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center">
+                        <h1>Contacteer ons</h1>
+                    </div>
+
+                </div>
+            </div>
+        </article>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-6 offset-3 form-bgc border-form p-5">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Naam</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Janssen">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Voornaam</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jan">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email adres</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Maak een keuze</label>
+                            <select class="custom-select">
+                                <option selected>Maak een keuze</option>
+                                <option class="text-grey" value="1">Reserveren</option>
+                                <option class="text-grey" value="2">Bestellen</option>
+                                <option class="text-grey" value="3">Jobs</option>
+                                <option class="text-grey" value="4">Andere vragen</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Bericht</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <i class="fas fa-arrow-right send-arrow mt-2"></i>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="container-fluid">
         <div class="container py-5">
@@ -92,10 +141,10 @@
                     </div>
                 </div>
                 <div class="col-md-7 border-contact flex-column">
-                        <div><i class="footer-icon fas fa-comment mx-3 mb-3"></i>CONTACT</div>
-                        <a href="contact.html"><img src="images/google-map.PNG" class="w-50 mb-2" alt="google maps"></a>
-                        <div class="contact-icon"><i class="fas fa-home px-2"></i>Kerkplein 4a, 3950 Bocholt</div>
-                        <div class="contact-icon"><i class="fas fa-envelope px-2"></i>info@defritketel.be</div>
+                    <div><i class="footer-icon fas fa-comment mx-3 mb-3"></i>CONTACT</div>
+                    <a href="contact.html"><img src="images/google-map.PNG" class="w-50 mb-2" alt="google maps"></a>
+                    <div class="contact-icon"><i class="fas fa-home px-2"></i>Kerkplein 4a, 3950 Bocholt</div>
+                    <div class="contact-icon"><i class="fas fa-envelope px-2"></i>info@defritketel.be</div>
                 </div>
             </div>
         </div>

@@ -107,3 +107,101 @@ footer{
 .padding-x-euro-icons{
     padding:0.7em;
 }
+
+
+/*-------------------------menu page--------------------*/
+.bgc-orange{
+    background-color: #f47524;
+}
+
+.text-orange{
+    color: #f47524;
+}
+
+.text-grey{
+    color:  #343434;
+}
+
+.main-border-bottom{
+    border-bottom: 0.2em dotted #f47524;
+}
+
+.main-icon{
+    font-size: 3em;
+    background-color: #f47524;
+}
+
+.list-group-bgc{
+    background-color: #000;
+}
+
+.menu-bgc{
+    background-color: #000;
+    color: #f47524;
+}
+
+.menu-border{
+    border-left: 0.2em dotted #343434;
+}
+
+.list-group .fa-euro-sign{
+    color: #343434;
+}
+
+.menu-bgc .fa-exclamation-circle{
+    color: #f47524
+}
+
+.list-font-size{
+    font-size: 0.8em;
+}
+
+.menu-radius-links .menu-radius-rechts{
+    border: 1px solid #000;
+}
+
+.menu-radius-links{
+    border-radius: 2em 0 0 2em;
+}
+
+.menu-radius-rechts{
+    border-radius: 0 2em 2em 0;
+}
+
+
+/*-------------------------foto's--------------------*/
+
+
+
+/*-------------------------restaurant--------------------*/
+
+
+
+/*-------------------------contact--------------------*/
+.main-border-bottom{
+    border-bottom: 0.2em dotted #f47524;
+}
+
+.jumbotron-contact-bg-image{
+    background: url(images/zaak.jpg) no-repeat center center;
+    background-size: center;
+    min-height: 25em;
+}
+
+.text-grey{
+    color: #343434;
+}
+
+.send-arrow{
+    font-size: 2.5em;
+    color: #f47524;
+}
+
+.form-bgc{
+    background-color: #000;
+}
+
+.border-form{
+    border: 1px solid #000;
+    border-radius: 2em;
+}
