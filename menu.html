@@ -15,18 +15,18 @@
 </head>
 
 <body>
-    <header class="container-fluid text-center">
+    <header class="container-fluid text-center test">
         <div class="row">
-            <div class="col-md-6 offset-3">
-                <img src="images/logo.png" class="img-fluid my-1" alt="logo de fritketel">
-            </div>
-            <div class="col-md-1">
-                <a href="#"><i class="logo-facbook float-right mt-5 p-2 w-50 rounded-circle fab fa-facebook-f"></i></a>
+            <div class="col-12 col-md-6 offset-md-3">
+                <img src="images/logo.png" class="img-fluid my-1 logo-fritketel" alt="logo de fritketel">
             </div>
         </div>
     </header>
     <nav class="navbar navbar-expand-md navbar-custom">
-        <div class="collapse navbar-collapse" id="collapsingNavbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon navbar-custom-xs">menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item px-2">
                     <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
@@ -59,7 +59,7 @@
         <div class="container">
             <div class="row menu">
                 <!---------- frieten ---------->
-                <div class="col-md-5 offset-1 menu-radius-links menu-bgc">
+                <div class="col-12 col-md-5 offset-md-1 menu-radius-links menu-bgc">
                     <div class="frieten mt-5">
                         <h2 class="mt-3 text-orange"><i class="fas fa-exclamation-circle mr-3"></i>Frieten</h2>
                         <ul class="list-group">
@@ -353,8 +353,8 @@
                     </div>
                 </div>
                 <!---------- bicky's ---------->
-                <div class="col-md-5 menu-border menu-radius-rechts menu-bgc">
-                    <div class="bickys mt-5">
+                <div class="col-12 col-md-5 menu-border menu-radius-rechts menu-bgc">
+                    <div class="bickys marge-top">
                         <h2 class="mt-3 text-orange"><i class="fas fa-exclamation-circle mr-3"></i>Bicky's</h2>
                         <ul class="list-group">
                             <li class="list-group-item list-group-bgc py-1 border-0 text-orange">Bicky burger<span
@@ -618,38 +618,45 @@
     <footer class="container-fluid">
         <div class="container py-5">
             <div class="row">
-                <div class="col-md-3 offset-1">
+                <div class="col-12 col-md-3 offset-md-1">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 d-flex justify-content-center">
                             <i class="footer-icon fas fa-door-open mx-3 mb-2"></i>OPENINGSUREN
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-12 col-md-12">
                             <ul class="list-unstyled">
-                                <li class="footer-list d-md-flex justify-content-md-between py-2 border-openingsuren">
+                                <li
+                                    class="footer-list d-flex justify-content-center d-md-flex justify-content-md-between py-2 border-openingsuren">
                                     <div>Maandag</div>
                                     <div>Gesloten</div>
                                 </li>
-                                <li class="footer-list d-md-flex justify-content-md-between py-2 border-openingsuren">
+                                <li
+                                    class="footer-list d-flex justify-content-center d-md-flex justify-content-md-between py-2 border-openingsuren">
                                     <div>Dinsdag</div>
                                     <div>Gesloten</div>
                                 </li>
-                                <li class="footer-list d-md-flex justify-content-md-between py-2 border-openingsuren">
+                                <li
+                                    class="footer-list d-flex justify-content-center d-md-flex justify-content-md-between py-2 border-openingsuren">
                                     <div>Woensdag</div>
                                     <div>11:30 - 13:30<br>16:30 - 21:30</div>
                                 </li>
-                                <li class="footer-list d-md-flex justify-content-md-between py-2 border-openingsuren">
+                                <li
+                                    class="footer-list d-flex justify-content-center d-md-flex justify-content-md-between py-2 border-openingsuren">
                                     <div>Donderdag</div>
                                     <div>16:30 - 21:30</div>
                                 </li>
-                                <li class="footer-list d-md-flex justify-content-md-between py-2 border-openingsuren">
+                                <li
+                                    class="footer-list d-flex justify-content-center d-md-flex justify-content-md-between py-2 border-openingsuren">
                                     <div>Vrijdag</div>
                                     <div>11:30 - 13:30<br>16:30 - 21:30</div>
                                 </li>
-                                <li class="footer-list d-md-flex justify-content-md-between py-2 border-openingsuren">
+                                <li
+                                    class="footer-list d-flex justify-content-center d-md-flex justify-content-md-between py-2 border-openingsuren">
                                     <div>Zaterdag</div>
                                     <div>16:30 - 21:30</div>
                                 </li>
-                                <li class="footer-list d-md-flex justify-content-md-between py-2 border-openingsuren">
+                                <li
+                                    class="footer-list d-flex justify-content-center d-md-flex justify-content-md-between py-2 border-openingsuren">
                                     <div>Zondag</div>
                                     <div>11:30 - 13:30<br>16:30 - 21:00</div>
                                 </li>
@@ -657,11 +664,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7 border-contact flex-column">
-                    <div><i class="footer-icon fas fa-comment mx-3 mb-3"></i>CONTACT</div>
-                    <a href="contact.html"><img src="images/google-map.PNG" class="w-50 mb-2" alt="google maps"></a>
-                    <div class="contact-icon"><i class="fas fa-home px-2"></i>Kerkplein 4a, 3950 Bocholt</div>
-                    <div class="contact-icon"><i class="fas fa-envelope px-2"></i>info@defritketel.be</div>
+                <div class="col-12 col-md-7 border-contact flex-column">
+                    <div class="d-flex justify-content-center"><i
+                            class="footer-icon fas fa-comment mx-3 mb-3"></i>CONTACT</div>
+                    <a href="contact.html" class="d-flex justify-content-center"><img src="images/google-map.PNG"
+                            class="w-50 mb-2" alt="google maps"></a>
+                    <div class="contact-icon text-center"><i class="fas fa-home px-2"></i>Kerkplein 4a, 3950 Bocholt
+                    </div>
+                    <div class="contact-icon text-center"><i class="fas fa-envelope px-2"></i>info@defritketel.be</div>
                 </div>
             </div>
         </div>
