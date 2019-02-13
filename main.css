@@ -174,8 +174,42 @@ footer{
 
 
 /*-------------------------restaurant--------------------*/
+.btn-restaurant{
+    border: 1px solid #000;
+    border-radius: 2em;
+}
 
+.btn-restaurant:hover{
+    background-color: #f47524;
+    border-color: #f47524;
+    color: #000;
+    font-weight: 600;
+}
 
+.px-5-bree{
+    padding: 0 3.7em;
+}
+
+.restaurant-icon{
+    font-size: 2em;
+}
+
+.restaurant-text-location{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.restaurant-text-hours{
+    font-size: 1.5em;
+}
+
+.restaurant-border-info-top{
+    border-radius: 2em 2em 0 0;
+}
+
+.restaurant-border-map{
+    border-radius: 2em;
+}
 
 /*-------------------------contact--------------------*/
 .main-border-bottom{
