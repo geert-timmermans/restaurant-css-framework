@@ -197,14 +197,6 @@ footer{
     font-size: 1.5em;
 }
 
-.restaurant-border-info-top{
-    border-radius: 2em 2em 0 0;
-}
-
-.restaurant-border-map{
-    border-radius: 2em;
-}
-
 /*-------------------------contact--------------------*/
 .main-border-bottom{
     border-bottom: 0.2em dotted #f47524;
@@ -234,7 +226,7 @@ footer{
     border-radius: 2em;
 }
 
-
+/*------------------------- Mobile -------------------------*/
 @media only screen and (max-width: 576px) {
     .logo-fritketel{
         width: 100vw;
@@ -278,8 +270,20 @@ footer{
     .navbar-hamburger-size{
         font-size: 1.3em;
     }
+    .restaurant-border-info-top{
+        border-radius: 0 0 0 0;
+    }
+    .googlemaps-size{
+        width: 100vw;
+    }
+    .restaurant-border-map{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
+
+/*------------------------- Desktop -------------------------*/
 @media only screen and (min-width:577px){
     .logo-fritketel{
         width: 100%;
@@ -304,5 +308,15 @@ footer{
     }
     .menu-border{
         border-left: 0.2em dotted #343434;
+    }
+    .restaurant-border-info-top{
+        border-radius: 2em 2em 0 0;
+    }
+    .googlemaps-size{
+        width: 1100px;
+        height: 375px;
+    }
+    .restaurant-border-map{
+        border-radius: 2em;
     }
 }
