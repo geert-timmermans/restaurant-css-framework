@@ -249,6 +249,8 @@ footer{
     }
     .border-contact{
         border-top: 0.2em dotted #343434;
+        margin-top: 1em;
+        padding-top: 1em;
     }
     .menu-radius-links{
         border-radius: 2em 2em 0 0;
@@ -259,7 +261,17 @@ footer{
     .nav-item > a{
         background-color: #f47524;
     }
-
+    .margin-footer-xs{
+        padding: 1em 0;
+    }
+    .footer-contact-foto{
+        width: 100%;
+    }
+    .footer-mobile-flex{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width:577px){
@@ -277,5 +289,8 @@ footer{
     }
     .marge-top{
         margin-top: 3em;
+    }
+    .footer-contact-foto{
+        width: 50%;
     }
 }
