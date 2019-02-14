@@ -213,11 +213,6 @@ footer{
     background-color: #000;
 }
 
-.border-form{
-    border: 1px solid #000;
-    border-radius: 2em;
-}
-
 
 /*------------------------- Mobile -------------------------*/
 @media only screen and (max-width: 576px) {
@@ -235,12 +230,6 @@ footer{
         border-top: 0.2em dotted #343434;
         margin-top: 1em;
         padding-top: 1em;
-    }
-    .menu-radius-links{
-        border-radius: 2em 2em 0 0;
-    }   
-    .menu-radius-rechts{
-        border-radius: 0 0 2em 2em;
     }
     .nav-item > a{
         background-color: #f47524;
@@ -286,7 +275,11 @@ footer{
         width: 235px;
         height: 157px;
     }
-    
+    .foto-bgc{
+        background-color: #000;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 
@@ -324,6 +317,10 @@ footer{
         height: 375px;
     }
     .restaurant-border-map{
+        border-radius: 2em;
+    }
+    .foto-bgc{
+        background-color: #000;
         border-radius: 2em;
     }
 }
