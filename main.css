@@ -1,6 +1,7 @@
 /*-------------------------all pages--------------------*/
 *{
     color: #fff;
+
 }
 
 body{
@@ -82,7 +83,8 @@ footer{
 }
 
 .main-body-cards{
-    padding: 2.5em 0;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
 }
 
 .main-body{
