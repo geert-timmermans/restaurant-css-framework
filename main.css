@@ -156,11 +156,9 @@ footer{
     font-size: 0.8em;
 }
 
-.menu-radius-links .menu-radius-rechts.{
+.menu-radius-links .menu-radius-rechts{
     border: 1px solid #000;
 }
-
-
 
 
 /*-------------------------foto's--------------------*/
@@ -200,12 +198,6 @@ footer{
 /*-------------------------contact--------------------*/
 .main-border-bottom{
     border-bottom: 0.2em dotted #f47524;
-}
-
-.jumbotron-contact-bg-image{
-    background: url(images/zaak.jpg) no-repeat center center;
-    background-size: center;
-    min-height: 25em;
 }
 
 .text-grey{
@@ -283,6 +275,8 @@ footer{
     .contact-padding-mobile{
         padding-left: 0;
         padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -290,7 +284,7 @@ footer{
 /*------------------------- Desktop -------------------------*/
 @media only screen and (min-width:577px){
     .logo-fritketel{
-        width: 100%;
+        width: 50%;
     }
     .border-contact{
         border-left: 0.2em dotted #343434;
