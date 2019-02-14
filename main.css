@@ -11,10 +11,9 @@ header, footer, .jumbotron{
     background-color: #000;
 }
 
-nav{
+.nav-bgc-font-size{
     background-color: #f47524;
     font-size: 1.4em;
-    z-index: 99;
 }
 
 .navbar{
@@ -218,6 +217,7 @@ footer{
     border-radius: 2em;
 }
 
+
 /*------------------------- Mobile -------------------------*/
 @media only screen and (max-width: 576px) {
     .logo-fritketel{
@@ -278,6 +278,7 @@ footer{
         margin-left: 0;
         margin-right: 0;
     }
+    
 }
 
 
