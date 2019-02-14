@@ -278,6 +278,9 @@ footer{
         margin-left: 0;
         margin-right: 0;
     }
+    .foto-width{
+        width: 100%;
+    }
     
 }
 
