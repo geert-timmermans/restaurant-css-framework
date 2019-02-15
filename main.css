@@ -218,7 +218,7 @@ footer{
 
 
 /*------------------------- Mobile -------------------------*/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 767px) {
     nav{
         z-index: 99;
     }
@@ -309,7 +309,7 @@ footer{
 
 
 /*------------------------- Desktop -------------------------*/
-@media only screen and (min-width:577px){
+@media only screen and (min-width:768px){
     .logo-fritketel{
         width: 50%;
     }
