@@ -66,11 +66,11 @@
                 <form>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Naam</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Janssen">
+                        <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="vb: Janssen">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Voornaam</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jan">
+                        <input name="name"type="text" class="form-control" id="exampleFormControlInput1" placeholder="vb: Jan">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Email adres</label>
@@ -90,9 +90,13 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Bericht</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Uw bericht"></textarea>
                     </div>
-                    <a href="#"><i class="fas fa-arrow-right send-arrow mt-2"></i></a>
+                    <a class="col-md-3 btn btn-primary d-flex justify-content-center btn-contact mt-4" href="#"
+                        role="button">
+                        <div><i class="fas fa-share-square"></i></div>
+                    <div class="ml-2">Submit</div>
+                    </a>
                 </form>
 
             </div>
