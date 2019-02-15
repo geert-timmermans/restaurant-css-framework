@@ -12,6 +12,20 @@ header, footer, .jumbotron{
     background-color: #000;
 }
 
+.btn-top-page{
+    font-size: 2em;
+    background-color: #f47524;
+    position: fixed;
+    bottom: 0.5em;
+    right: 1em;
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
 .nav-bgc-font-size{
     background-color: #f47524;
     font-size: 1.4em;
