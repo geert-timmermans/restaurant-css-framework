@@ -254,6 +254,12 @@ footer{
         margin-top: 0;
         padding-top: 0;
     }
+    .menu-radius-links{
+        border-radius: 2em 2em 0 0;
+    }
+    .menu-radius-rechts{
+        border-radius: 0 0 2em 2em;
+    }
     .navbar-hamburger-size{
         font-size: 1.3em;
     }
