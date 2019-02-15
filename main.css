@@ -216,6 +216,10 @@ footer{
     border-radius: 2em;
 }
 
+.div-foto{
+    width: 100%;
+}
+
 
 /*------------------------- Mobile -------------------------*/
 @media only screen and (max-width: 767px) {
@@ -282,8 +286,8 @@ footer{
         margin-right: 0;
     }
     .foto-width{
-        width: 235px;
-        height: 157px;
+        width: 20%;
+        height: auto;
     }
     .foto-bgc{
         background-color: #000;
@@ -303,7 +307,7 @@ footer{
         justify-content: center;
         align-items: center;
         border-radius: 50%;
-        z-index: 99;
+        z-index: 999;
     }
 }
 
@@ -360,5 +364,6 @@ footer{
         justify-content: center;
         align-items: center;
         border-radius: 50%;
+        z-index: 998;
     }
 }
