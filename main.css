@@ -209,6 +209,8 @@ footer{
     font-size: 1.2em;
     background-color: #f47524;
     border: 0;
+    width: 50%;
+    margin-top: 2.2em;
 }
 
 .form-bgc{
@@ -216,9 +218,6 @@ footer{
     border-radius: 2em;
 }
 
-.div-foto{
-    width: 100%;
-}
 
 
 /*------------------------- Mobile -------------------------*/
